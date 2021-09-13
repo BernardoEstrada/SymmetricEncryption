@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cifrado simétrico</title>
+</head>
+<body>
+    <div class="center-container">
+        <div class="box">
+            <h1 class="title">Cifrado simétrico</h1>
+            <div class="group">
+                <input type="text" required id="input-cypher">
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <label>Input</label>
+            </div>
+            <div class="group">
+                <input type="text" required id="input-key">
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <label>Key</label>
+            </div>
+            <div class="group">
+                <input type="number" min="1" value="1" required id="input-runs">
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <label>Runs</label>
+            </div>
+            <Button class="btn purple-btn" onclick="onEncrypt()">Cifrar</Button>
+            <Button class="btn blue-btn" onclick="onDecrypt()">Descifrar</Button>
+            <div id="output"></div>
+        </div>
+    </div>
+    <script src="seedrandom.min.js"></script>
+    <script src="symmetric.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
