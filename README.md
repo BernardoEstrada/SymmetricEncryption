@@ -3,7 +3,10 @@
 
 A small example of a simple symmetric cypher using basic techniques
 
-
+## Authors
+- [Bernardo Estrada](https://www.github.com/BernardoEstrada) A01702430
+- [Sebastian Resendiz](https://www.github.com/A01701111) A01701111
+- [Francisco Diaz](https://www.github.com/Franciscodzv) A01204695
 
 ## Demo
   Encryption example             |  Decription example
